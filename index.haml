@@ -1,0 +1,40 @@
+!!! 5
+%html{:lang=>"ru"}
+ %head
+  %meta{:charset=>"utf-8"}
+  %meta{:name=>"viewport", :content=>"width=device-width, initial-scale=1"}
+  %link{:rel=>"stylesheet", :href=>"style.css", :media=>"all"}
+  %title
+   Корзина
+ %body
+  %ul.bread_crumbs
+   %li 
+    %a{:href=>"#"}
+    Главная
+    %span
+     &#8250;
+   %li
+    %a{:href=>"#"}
+    Мой кабинет
+    %span
+     &#8250;
+   %li
+    Оформление заказа
+  %h1
+   Оформление заказа
+  %ul.menu
+   %li.active
+    1.Мой заказ
+   %li
+    2.Способ доставки
+   %li
+    3.Способ оплаты
+  .images
+   .top-triangle
+   .bot-triangle
+   .fl.img1
+    %img{:src=>"img/pic_elephant.png", :alt=>"elephant"}
+   .fl.img2
+    %img{:src=>"img/pic_basket.png", :alt=>"basket"}
+   .fr.img3
+    %img.fr{:src=>"img/pic_hedgehog.png", :alt=>"hedgehog"}
